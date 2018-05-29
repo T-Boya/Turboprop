@@ -1,0 +1,1 @@
+web: gunicorn Thrust.wsgi --log-file -
