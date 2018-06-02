@@ -3,4 +3,8 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    return HttpResponse('This is a view!')
+    return render(request, 'main.html')
+
+def create(request):
+    
+    return render(request, 'create_set.html')    

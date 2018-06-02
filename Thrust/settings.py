@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Lift',
-    'bootstrap3',
+    'bootstrap4',
 ]
 
 MIDDLEWARE_CLASSES = [
